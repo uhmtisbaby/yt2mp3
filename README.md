@@ -1,8 +1,8 @@
-# 🎵 JDownloader 2: YouTube Audio to MP3 + Embedded Cover Art
+# JDownloader 2: YouTube Audio to MP3 + Embedded Cover Art
 
 An automated workflow for **JDownloader 2** that turns any YouTube video or playlist into properly tagged **MP3 files with embedded thumbnail artwork** in a single click.
 
-## ✨ Features
+## Features
 * **One-Click Context Menu Action:** Right-click any package in LinkGrabber and select **Download Audio + Cover Only** to skip videos/subtitles and grab only the audio + thumbnail.
 * **Automatic Image Prioritization:** Ensures thumbnails finish downloading *before* audio streams so artwork is always ready for embedding.
 * **Smart Title Matching:** Strips JDownloader quality suffixes (e.g., `(128kbit_AAC)`) to reliably pair thumbnails with audio files.
@@ -11,7 +11,7 @@ An automated workflow for **JDownloader 2** that turns any YouTube video or play
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 1. **JDownloader 2** installed and updated.
 2. **Event Scripter** extension installed in JDownloader:
@@ -24,7 +24,7 @@ An automated workflow for **JDownloader 2** that turns any YouTube video or play
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Step 1: Prioritize Thumbnail Downloads (Packagizer Rule)
 Because the conversion script triggers the instant an audio download finishes, the thumbnail must already be on disk.
@@ -72,7 +72,7 @@ Because the conversion script triggers the instant an audio download finishes, t
 
 ---
 
-## 🎯 Usage
+## Usage
 
 1. Copy a YouTube video or playlist URL into JDownloader's **LinkGrabber**.
 2. Wait for JDownloader to finish crawling the links.
